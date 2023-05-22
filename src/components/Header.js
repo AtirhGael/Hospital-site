@@ -47,7 +47,9 @@ export default function Header({ fixed }) {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
                   href="#pablo"
                 >
-                  <i className="fab fa-twitter text-lg leading-lg text-black opacity-75"></i><span className="ml-2">Contact</span>
+                  <NavLink to='/service' className="fab fa-twitter text-lg leading-lg text-black opacity-75">
+                    <span className="ml-2">Services</span>
+                  </NavLink>
                 </a>
               </li>
               <li className="nav-item">
