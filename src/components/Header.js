@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {  NavLink  } from "react-router-dom";
 
 export default function Header({ fixed }) {
@@ -64,18 +64,13 @@ export default function Header({ fixed }) {
                   </NavLink >
                 </a>
               </li>
-              <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
-                >
-                  <i className="fab fa-pinterest text-lg leading-lg text-black opacity-75"></i><span className="ml-2">Pin</span>
-                </a>
-              </li>
-
-              <button className="border-2 border-blue-600 hover:bg-blue-700 cursor-pointer p-1 rounded-lg ">
+           
+              <button
+             
+               className="border-2 border-blue-600 hover:bg-blue-700 cursor-pointer p-1 rounded-lg ">
                 <div className=" fab fa-pinterest text-blue-700  hover:text-white" > Emergency Call </div>
               </button>
+              
             </ul>
           </div>
         </div>

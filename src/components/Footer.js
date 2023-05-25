@@ -1,5 +1,4 @@
 import React from 'react'
-import { Camera } from 'react-feather';
 import map from '../assets/map-pin.svg'
 import mail from '../assets/mail.svg'
 import call from '../assets/phone.svg'
